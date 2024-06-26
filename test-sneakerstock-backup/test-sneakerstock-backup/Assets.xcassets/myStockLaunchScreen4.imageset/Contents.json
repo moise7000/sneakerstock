@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "sneakerstockPh.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
