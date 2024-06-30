@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23D5051b" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Apparel" representedClassName="Apparel" syncable="YES" codeGenerationType="class">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="buydate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="buyvalue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="selldate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="sellestimatedvalue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sellvalue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sellwebsite" optional="YES" attributeType="String"/>
+        <attribute name="size" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Deposit" representedClassName="Deposit" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+    </entity>
+    <entity name="Shoes" representedClassName="Shoes" syncable="YES" codeGenerationType="class">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="imageShoes" optional="YES" attributeType="Binary"/>
+        <attribute name="jour" optional="YES" attributeType="Date" defaultDateTimeInterval="663704700" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="priceStr" optional="YES" attributeType="String"/>
+        <attribute name="ressellPrice" optional="YES" attributeType="String"/>
+        <attribute name="selldate" optional="YES" attributeType="Date" defaultDateTimeInterval="695247540" usesScalarValueType="NO"/>
+        <attribute name="sellvalue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sellwebsite" optional="YES" attributeType="String" defaultValueString="non renseigné"/>
+        <attribute name="size" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="stockxStyle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
