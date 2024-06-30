@@ -5,8 +5,8 @@ The Android version is in development.
 
 ## DataModel
 
-```python
-- SHOES
+```swift
+SHOES
   - id: UUID
   - name: STRING
   - size: D
@@ -22,4 +22,13 @@ The Android version is in development.
   - sellValue: DOUBLE
   - sellWebsite: STRING
   - stockxStyle: STRING
+```
+
+## FireBase
+```swift
+USER
+  - id: UUID
+  - userName: STRING
+  - mugshot: BINARY DATE 
+  - shoes: [SHOES]
 ```
