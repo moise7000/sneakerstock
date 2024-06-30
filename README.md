@@ -22,13 +22,22 @@ SHOES
   - sellValue: DOUBLE
   - sellWebsite: STRING
   - stockxStyle: STRING
+
+APPAREL
+  - id: Uuid
+  - name: String
+  - brand: String
+  - buydate: Date
+  - buyvalue: Double
+  - image: Data
 ```
 
 ## FireBase
-```swift
+```Swift
 USER
   - id: UUID
   - userName: STRING
+  - password: String
   - mugshot: BINARY DATE 
   - shoes: [SHOES]
 ```
